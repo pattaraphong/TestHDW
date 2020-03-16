@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+  }
+  .col-lg-6{
+    margin-left: 400px;
+}
+
+.card-table{
+  max-width: 1200px;
+  min-width: 800px;
+  margin: auto;
+}
+.b1{
+  margin-top: 450px;
+
+}
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+  background-color: #2A323B;
+
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div _ngcontent-c2="" class="col-lg-6" style="background-color:#2A323B; color: white; ">
+    <div _ngcontent-c2="" class="row d-flex justify-content-center" >
+      <div _ngcontent-c2="" class="col-10 col-sm-9 col-md-7 col-lg-9 col-xl-7 py-5">
+        <h4 _ngcontent-c2="" class="text-center pb-3">Contact</h4>
+        <form _ngcontent-c2="" novalidate="" class="ng-untouched ng-pristine ng-invalid">
+          <div _ngcontent-c2="" class="form-group ">
+            <div _ngcontent-c2="" class="input-group mb-1">
+              <div _ngcontent-c2="" class="input-group-prepend ">
+                <span _ngcontent-c2="" class="input-group-text " style="width: 40px;">
+                  <i _ngcontent-c2="" class="fa fa-user "></i>
+                </span>
+              </div>
+
+              <input  class="form-control ng-untouched ng-pristine ng-invalid"  type="text" placeholder="Name" name = "inputName" [(ngModel)]="inputName" >
+
+            </div>
+            <!------------------------------------------>
+
+          </div>
+          <div _ngcontent-c2="" class="form-group">
+            <div _ngcontent-c2="" class="input-group mb-1">
+              <div _ngcontent-c2="" class="input-group-prepend">
+                <span _ngcontent-c2="" class="input-group-text" style="width: 40px;">
+                  <i _ngcontent-c2="" class="fa fa-envelope "></i>
+                </span>
+              </div>
+              <input _ngcontent-c2="" class="form-control ng-untouched ng-pristine ng-invalid" required="" type="string" placeholder="Email" name = "inputEmail" [(ngModel)]="inputEmail">
+            </div>
+            <!------------------------------------>
+
+          </div>
+          <div _ngcontent-c2="" class="form-group">
+            <div _ngcontent-c2="" class="input-group mb-1">
+              <div _ngcontent-c2="" class="input-group-prepend">
+                <span _ngcontent-c2="" class="input-group-text" style="width: 40px;">
+                  <i _ngcontent-c2="" class="fa fa-phone "></i>
+                </span>
+              </div>
+              <input _ngcontent-c2="" class="form-control ng-untouched ng-pristine ng-invalid"  required="" type="string" placeholder="Telephone Number " name = "inputPhone" [(ngModel)]="inputPhone">
+            </div>
+            <!--------------------------------------------->
+
+          </div>
+          <div _ngcontent-c2="" class="form-group mb-1">
+            <div _ngcontent-c2="" class="input-group">
+              <div _ngcontent-c2="" class="input-group-prepend">
+                <span _ngcontent-c2="" class="input-group-text" style="width: 40px;">
+                  <i _ngcontent-c2="" class="fa fa-pencil"></i>
+                </span>
+              </div>
+              <textarea _ngcontent-c2="" class="form-control ng-untouched ng-pristine ng-invalid"  id="comment" required="" rows="5" placeholder="Write your message" type="text" name = "detail" [(ngModel)]="detail"></textarea>
+            </div>
+            <!-------------------------------------------->
+
+          </div>
+          <div _ngcontent-c2="" class="form-row my-3 d-flex justify-content-center">
+            <div _ngcontent-c2="" class="form-group">
+
+            </div>
+          </div>
+          <!--<button mat-raised-button color="primary" (click)="Save()">save</button>-->
+          <button _ngcontent-c2="" class="btn btn-outline-light btn-lg btn-block " style="background-color:#4AA8E5; border: 0px;" type="submit" (click)="Save()">Send</button>
+
+        </form>
+
+      </div>
+       <div class = "b1">
+           <button mat-raised-button color="primary" [routerLink]="['/list']">ตรวจสอบ</button>
+       </div>
+    </div>
+  </div>
+
+<br>
+<br>
+<br>
+<br>
+
+</body>
+</html>
+
